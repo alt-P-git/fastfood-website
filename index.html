@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fast Food|fastfood.com</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="./script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
+  </head>
+  <body class="main1">
+    <nav id="navbar">
+      <div class="logobox">
+        <img src="./img/logo.png" alt="Good Food logo" id="logo" />
+      </div>
+
+      <ul>
+        <li class="item"><a href="#home">Home</a></li>
+        <li class="item"><a href="#services">Services</a></li>
+        <li class="item"><a href="#menu">Menu</a></li>
+        <li class="item"><a href="#contactus">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="main2">
+      <section id="home">
+        <h1 class="primary">Welcome to Fast Food</h1>
+        <br />
+        <p>Best cooks and best delivery guys are all at your service.</p>
+        <button id="button">Order Now</button>
+      </section>
+
+      <div class="main3 mainsections">
+        <section id="services">
+          <h1>Services</h1>
+          <div id="seviceslist">
+            <div class="service" id="online">
+              <div id="dineininfo">
+                <h3>Order online</h3>
+                <p>Get it delivered, from the restaurant of your dreams.</p>
+                <br />
+                <div class="deliveryimg">
+                  <img
+                    src="./img/delivery.jpg"
+                    alt=""
+                    id="deliveryimg"
+                    class="serviceimg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="service" id="dinein">
+              <div id="dineininfo">
+                <h3>Dine in</h3>
+                <p>Where your favorite food stories begin!</p>
+                <br />
+                <div class="dineinimg">
+                  <img
+                    src="./img/dinein.jpeg"
+                    alt=""
+                    id="dineinimg"
+                    class="serviceimg"
+                  />
+                </div>
+              </div>
+            </div>
+              <div class="service" id="bulkorder">
+                <div id="bulkorderinfo">
+                  <h3>Bulk Order</h3>
+                  <p>Order in buik for special occasions.</p>
+                  <br />
+                  <div class="bulkorderimg">
+                    <img
+                      src="./img/bulkorder.png"
+                      alt=""
+                      id="bulkorderimg"
+                      class="serviceimg"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="main4 mainsections">
+        <div id="menuheading">
+          <h1>Menu</h1>
+        <br>
+      </div>
+        <section id="menu">
+          <div id="menucontent">
+          <div id="menulist">
+            <div class="menuitem" id="pizza" onmouseover="showpizza()" onmouseout="hidepizza()">
+              <div id="pizzas">
+                <h3>Pizza</h3>
+                <div class="pizzaimg">
+                  <img
+                    src="./img/Pizza.png"
+                    alt=""
+                    id="pizzaimage"
+                    class="itemimg"
+                  />
+                </div>
+                  <div id="pizzalistdiv">
+                  <ul class="itemlist" id="pizzalist">
+                    <li>Veggie Pizza</li>
+                    <li>Pepperoni Pizza</li>
+                    <li>Margherita Pizza</li>
+                    <li>Cheese Pizza</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="menuitem" id="burger" onmouseover="showburger()" onmouseout="hideburger()">
+              <div id="burgers" >
+                <h3>Burger</h3>
+                <div class="burgerimg">
+                  <img
+                    src="./img/Burger.png"
+                    alt=""
+                    id="burgerimage"
+                    class="itemimg"
+                  />
+                  <div id="burgerlistdiv">
+                  <ul class="itemlist" id="burgerlist">
+                    <li>Veggie burger</li>
+                    <li>Butter burger</li>
+                    <li>Onion burger</li>
+                    <li>Cheese burger</li>
+                  </ul>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="menuitem" id="sandwich" onmouseover="showsandwich()" onmouseout="hidesandwich()">
+              <div id="sandwiches">
+                <h3>Sandwich</h3>
+                <div class="sandwichimg">
+                  <img
+                    src="./img/sandwich.jpg"
+                    alt=""
+                    id="sandwichimage"
+                    class="itemimg"
+                  />
+                  <div id="sandwichlistdiv">
+                  <ul class="itemlist" id="sandwichlist">
+                    <li>Veg. sandwich</li>
+                    <li>Grilled sandwich</li>
+                    <li>Cheese sandwich</li>
+                    <li>Cheese grilled sandwich</li>
+                  </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="menuitem" id="softdrink" onmouseover="showsoftdrink()" onmouseout="hidesoftdrink()">
+              <div id="softdrinks">
+                <h3>Softdrinks</h3>
+                <div class="softdrinkimg">
+                  <img
+                    src="./img/softdrink.png"
+                    alt=""
+                    id="softdrinkimage"
+                    class="itemimg"
+                  />
+                  <div id="softdrinklistdiv">
+                  <ul class="itemlist" id="softdrinklist">
+                    <li>Cocacola</li>
+                    <li>Sprite</li>
+                    <li>Pepsi</li>
+                    <li>Red bull</li>
+                  </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="menuitem" id="combo" onmouseover="showcombo()" onmouseout="hidecombo()">
+              <div id="combo">
+                <h3>Combo</h3>
+                <div class="comboimg">
+                  <img
+                    src="./img/combo.jpg"
+                    alt=""
+                    id="comboimage"
+                    class="itemimg"
+                  />
+                  <div id="combolistdiv">
+                  <ul class="itemlist" id="combolist">
+                    <li>Sandwich + Burger +</li>
+                    <li> Small pizza + Softdrink</li>
+                    <li>Quantity: 1 each</li>
+                    <li>(20% off on combo)</li>
+                  </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        </section>
+      </div>
+
+      <div class="main5 mainsections">
+        <section id="contactus">
+          <h1>Contact Us</h1>
+          <br>
+          <h2 class="h2">Fill your information and we will contact you as soon as possible.</h2>
+          <div id="contact-box">
+            <form action="">
+              <div class="form-group">
+                <label for="name">Name: </label>
+                <br>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  class="inputs"
+                  placeholder="Enter your name"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email: </label>
+                <br>
+                <input
+                  type="email"
+                  name="name"
+                  id="email"
+                  class="inputs"
+                  placeholder="Enter your email"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="phone">Phone Number: </label>
+                <br>
+                <input
+                  type="phone"
+                  name="name"
+                  id="phone"
+                  class="inputs"
+                  placeholder="Enter your phone"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message: </label>
+                <br>
+                <textarea
+                  name="message"
+                  id="message"
+                  class="inputs"
+                  cols="10"
+                  rows="5"
+                ></textarea>
+              </div>
+            </form>
+            <div class="buttons">
+              <button type="submit" id="button">Submit</button>
+              <button type="reset" id="button">Reset</button>
+            </div>
+            <div class="orcontactus">
+              <h3>Or contact us at
+                <br>
+                Mobile number: 9876543210
+                <br>
+                Email: fastfood@gmail.com</h3>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div id="togglesection">For touchscreen mode, <button id="togglebutton" onclick="togglefunc()">click here</button></div>
+      <div id="togglesectiondefault">For default mode, <button id="togglebutton" onclick="togglefunc()">click here</button></div>
+      <div id="defaultmode">Default mode</div>
+      <div id="touchscreenmode">Touchscreen mode</div>
+    </div>
+  </body>
+</html>

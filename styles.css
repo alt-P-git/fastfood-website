@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main1{
+    width: 100vw;
+    background-image: url(./img/homebackground.jpg);
+    background-repeat: no-repeat;
+    background-size:auto;
+}
+
+/*CSS Variables*/
+:root{
+    --navbar-height: 60px;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    background-color: rgb(192, 194, 194, 0.6);
+    min-height: 10vh;
+    width: 100vw;
+}
+
+#logo{
+    height: 70px;
+    margin: 10px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+#navbar ul li{
+    text-decoration: none;
+}
+
+#navbar ul li a{
+    font-size:medium;
+    padding: 2px 10px;
+    display: block;
+    border-radius: 10px;
+    margin: 5px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    background-color: azure;
+    color: black;
+}
+
+.main2{
+    width: 100vw;
+}
+
+#home{
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    padding: 20px;
+    background-color: rgb(192, 194, 194, 0.4);
+    height: 90vh;
+}
+
+#button{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 2px 15px;
+    margin: 10px;
+    background-color: rgba(220, 208, 208, 0.6);
+}
+
+#button:hover{
+    background-color: rgba(220, 208, 208, 0.8);
+    font-size: 16px;
+}
+
+.mainsections{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+#services{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(210, 209, 209, 0.6);
+    font-family: 'Exo 2', sans-serif;
+}
+
+#seviceslist{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.service{
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 350px;
+    font-size: 20px;
+    background-color: rgb(241, 248, 255, 0.5);
+    border-radius: 20px;
+    border-color: rgb(246, 154, 121);
+    border-width: 3px;
+    border-style: solid;
+}
+
+.service:hover{
+    background-color: rgb(241, 248, 255, 0.7);
+    margin: 9px;
+    border-width: 4px;
+}
+
+.serviceimg{
+    height: 150px;
+}
+
+
+#contactus{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(210, 209, 209, 0.6);
+    min-height: 400px;
+    font-family: 'Exo 2', sans-serif;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.inputs{
+    width: 70%;
+    border-radius: 5px;
+}
+
+.buttons{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.h2{
+    font-size: 20px;
+}
+
+
+
+#menu{
+    background-color: rgb(210, 209, 209, 0.6);
+    min-height: 400px;
+    font-family: 'Exo 2', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#menucontent{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#menuheading{
+    background-color: rgb(210, 209, 209, 0.6);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.itemimg{
+    height: 150px;
+}
+
+.menuitem{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 280px;
+    min-width: 200px;
+    font-size: 20px;
+    background-color: rgb(241, 248, 255, 0.5);
+    border-radius: 20px;
+    border-color: rgb(246, 154, 121);
+    border-width: 3px;
+    border-style: solid;
+}
+
+.menuitem:hover{
+    background-color: rgb(241, 248, 255, 0.7);
+    border-width: 4px;
+    margin: 9px;
+}
+
+#menu{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(210, 209, 209, 0.6);
+    font-family: 'Exo 2', sans-serif;
+}
+
+#menulist{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items: center;
+}
+.main3{
+    width: 100vw;
+}
+.main4{
+    width: 100vw;
+}
+.main5{
+    width: 100vw;
+}
+
+.itemlist{
+    display: flex;
+    flex-direction: column;
+    transition-duration: 2s;
+}
+
+#pizzalistdiv{
+    display: none;
+    flex-direction: column;
+}
+
+#burgerlistdiv{
+    display: none;
+    flex-direction: column;
+}
+
+#sandwichlistdiv{
+    display: none;
+    flex-direction: column;
+}
+
+#softdrinklistdiv{
+    display: none;
+    flex-direction: column;
+}
+
+#combolistdiv{
+    display: none;
+    flex-direction: column;
+}
+
+#togglesection{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    background-color: rgb(241, 248, 255, 0.7);
+
+}
+
+#togglebutton{
+    background-color: azure;
+    border-radius: 5px;
+}
+
+#touchscreenmode{
+    display: none;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    background-color: rgb(241, 248, 255, 0.7);
+
+}
+#defaultmode{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    background-color: rgb(241, 248, 255, 0.7);
+
+}
+
+#togglesectiondefault{
+    display: none;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    background-color: rgb(241, 248, 255, 0.7);
+
+}
